@@ -1,0 +1,15 @@
+Redirect /index.htm http://www.website.org/pages/main.php?pageid=1&pagecategory=1
+Redirect /index.php http://www.website.org/pages/main.php?pageid=1&pagecategory=1
+Redirect /index.html http://www.website.org/pages/main.php?pageid=1&pagecategory=1
+
+
+RewriteEngine	on
+RewriteCond	%{REQUEST_URI}	^/hotlinking
+RewriteRule	^.*$	 -	[L]
+RewriteBase	/
+RewriteCond %{REQUEST_FILENAME}	\.(gif|jpe?g|png)$	[NC]
+RewriteCond	%{HTTP_REFERER}	!^$
+RewriteCond	%{HTTP_REFERER}	!mywebsitename\.org	 [NC]
+RewriteCond	%{HTTP_REFERER}	!google\.	 [NC]
+RewriteCond	%{HTTP_REFERER}	!search\?q=cache	 [NC]
+RewriteRule	(.*)	 /images/logo.jpg	 [R,NC,L]

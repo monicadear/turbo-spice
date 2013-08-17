@@ -1,0 +1,1 @@
+<a href=../indexadmin.php>back to admin home</a> &#124;<a href=input_newr.php>input new resource link</a> &nbsp; <a href=viewallresources.php>view all resource links</a> &#124; <a href=../linkcategories/viewall.php>update link categories</a> <BR>

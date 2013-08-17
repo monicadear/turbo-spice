@@ -1,0 +1,71 @@
+body {	font-family: Verdana, Geneva, Helvetica, sans-serif;	font-size: 12px;	font-style: normal;	line-height: normal;	font-weight: normal;	font-variant: normal;	text-transform: none;	margin: 0px 0px 20px 0px;        background: #FFF;}
+
+#calendarbox {
+	background-color: #CFC;
+	width: 350px;
+	padding: 5px;
+}
+
+.linkbrown {
+	color: #3CC;
+	font-size: 10px;
+}
+
+table, tr, td, textarea {
+	font-size: 10px;
+}
+
+.rednotlive {
+	font-size: 12px;
+	background-color: #F00;
+	color: #FFF;
+	padding: 2px;
+}
+
+
+.green {
+	color: #0F0;
+
+}
+
+.blue {
+	color: #00F;
+}
+
+.redbackground {
+	background-color: #CFC;
+	color: #F00;
+}
+
+
+.notlive {
+	color: #F00;
+}
+
+
+#smallbox {
+	width: 30%;
+	float: right;
+	padding: 5px;
+	border: 1px dotted #CCC;
+}
+#successdiv {	float: right;	width: 10%;	margin-right: 10%;	margin-left: 5%;	z-index: 100;}.footertext {	font-size: 11px;	color: #FFF;}.smalladmintext {	font-size: 9px;
+	color: #333;}
+
+.smalladminauthortext {	font-size: 10px;	color: #333;}
+
+
+.red {
+	color: #F00;
+}
+
+li {	padding-top: 15px;	padding-right: 30px;	padding-left: 15px;}#rightbox {	width: 300px;	float: right;	padding-bottom: 5px;	margin-left: 5px;	margin-bottom: 5px;	text-align: left;	border: 1px solid #CCC;}#blogbox {	width: 250px;	background-color: #999;	color: #FFF;	padding: 15px;}#quicklinksbox {	width: 235px;	color: #FFF;	padding-top: 30px;	padding-left: 10px;	padding-right: 20px;	background: url("images/quickbox.jpg") #B1B0C0;	background-repeat: no-repeat;	background-position: top right;}#bigbox {	padding: 0px;	text-align: left;	background: url("images/buildings.jpg") transparent;	background-repeat: no-repeat;	background-position: bottom left;	min-height: 800px;	border: 1px solid purple;}#maincontent {	min-height: 268px;	padding-left: 240px;	background: url("images/group.jpg") transparent;	background-repeat: no-repeat;	background-position: top left;	margin-right: 5px;	margin-left: 0px;}.white {	color: #FFF;}#contactinfo {margin-top: 200px;}#wrap{	background:#BCBCD4;	min-height: 700px;	margin-left: 1%;	margin-right: 1%;	margin-top:0px;		}#navigation {	text-align: left;	margin-left: 240px;	padding-top: 40px;	padding-bottom: 1px;	background: #000;}a.headernav {	padding: 2px;	color: #FFF;	font-size: 11px;	text-decoration: none;	font-weight: normal;}a.headernav:link {	padding: 2px;	color: #FFF;	font-size: 11px;	text-decoration: none;	font-weight: normal;}a.headernav:visited {	padding: 2px;	color: #FFF;	font-size: 11px;	text-decoration: none;	font-weight: normal;}a.headernav:active {	padding: 2px;	color: #369;	font-size: 11px;	text-decoration: underline;	font-weight: normal;}a.headernav:hover {	padding: 2px;	color: #369;	font-size: 11px;	text-decoration: underline;	font-weight: normal;}a.footerrp {	padding: 2px;	color: #300;	font-size: 11px;	text-decoration: none;}a.footerrp:link {	padding: 2px;	color: #300;	font-size: 11px;	text-decoration: underline;}a.footerrp:visited {	padding: 2px;	color: #300;	font-size: 11px;	text-decoration: none;}a.footerrp:active {	padding: 2px;	color: #369;	font-size: 11px;	text-decoration: underline;}a.footerrp:hover {	padding: 2px;	color: #369;	font-size: 11px;	text-decoration: underline;}a {	color: #369;	font-size: 12px;	font-weight: bold;}a:link {	color: #369;	font-size: 12px;	font-weight: bold;}a:visited {	color: #369;	font-size: 12px;	font-weight: bold;}a:active {	color: #369;	font-size: 12px;	font-weight: bold;}a:hover {	color: #369;	font-size: 12px;	font-weight: bold;}a.smaller {	color: #369;	font-size: 10px;	font-weight: bold;}a.smaller:link {	color: #369;	font-size: 10px;	font-weight: bold;}a.smaller:visited {	color: #369;	font-size: 10px;	font-weight: bold;}a.smaller:active {	color: #369;	font-size: 10px;	font-weight: bold;}a.smaller:hover {	color: #369;	font-size: 10px;	font-weight: bold;}
+
+a.smallerbyfar {	color: #369;	font-size: 9px;}
+
+#topbar {	background: url("images/topbar.jpg") #000;	background-repeat: no-repeat;	background-position: top left;	min-height: 156px;	padding: 0px;}#footer {text-align: center;padding: 0px;min-height: 100px;background: #000;}#indent {padding-left: 10px; padding-right: 10px;}#indent2 {padding-left: 60px; padding-right: 10px; padding-top: 60px;}#indent3 {padding-left: 20px; padding-right: 90px; padding-bottom: 15px;}h1{color: #363; font-family: helvetica,arial,sans-serif;font-size: 16px;}h2{color: #333; font-family: helvetica,arial,sans-serif;font-size: 14px;}h3{color: #333; font-family: helvetica,arial,sans-serif;font-style: italic;font-size: 14px;}#welcomeadmin {
+	background-color: #FFC;
+	border: 1px dotted #CCC;
+	padding: 5px;
+	width: 450px;
+}

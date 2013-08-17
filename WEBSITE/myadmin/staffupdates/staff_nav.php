@@ -1,0 +1,1 @@
+<a href=../indexadmin.php>back to admin home</a> &#124;<a href=viewall.php>view all staff</a> &nbsp; <a href=input_new.php>input new staff</a> &#124; <a href=../staffcategories/viewall.php>edit staff categories</a><BR>

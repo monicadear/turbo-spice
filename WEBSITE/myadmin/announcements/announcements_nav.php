@@ -1,0 +1,1 @@
+<a href=../indexadmin.php>back to admin home</a> &#124;<a href=viewallannouncements.php>view all service announcements</a> &nbsp; <a href=input_newannouncement.php>add new service announcement</a>

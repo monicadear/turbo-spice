@@ -1,0 +1,1 @@
+<a href=registrationadmin_all.php?orderitem=dateupdated&lastorderitem=dateupdated>view all members</a> &nbsp; <a href=memberapplication.php>ADD a new member</a> &nbsp; <a href=../membertypes/viewall.php>edit member types</a><a href=../excel/outputtoexcel.php?tabletoexport=directory>export EXCEL file of MEMBERS</a><BR>

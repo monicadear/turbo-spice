@@ -1,0 +1,1 @@
+<a href=input_newcat.php>input new category</a> &nbsp; <a href=viewallcat.php>view all categories</a><BR>

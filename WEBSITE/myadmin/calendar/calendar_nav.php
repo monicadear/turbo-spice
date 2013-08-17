@@ -1,0 +1,1 @@
+<a href=../indexadmin.php>back to admin home</a> &#124; <a href=calendaradmin.php>view all events</a> &nbsp; <a href=calendar_input_new.php>add new event</a><BR><BR>

@@ -1,0 +1,1 @@
+<a href=../indexadmin.php>back to admin home</a> &#124;<a href=input_newr.php>input new video link</a> &nbsp; <a href=viewallvideos.php>view all video links</a> &#124; <a href=../videocategories/viewall.php>update video categories</a> <BR>

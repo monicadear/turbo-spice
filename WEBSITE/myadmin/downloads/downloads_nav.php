@@ -1,0 +1,1 @@
+<a href=../indexadmin.php>back to admin home</a> &#124;  <a href=viewall.php>view all uploads</a> &nbsp; <a href=upload.php>add new file</a><BR>

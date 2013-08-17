@@ -1,0 +1,1 @@
+<a href=../indexadmin.php>back to home</a> &#124;<a href=input_new.php>input new FAQ category</a> &nbsp; <a href=viewall.php>view all FAQ categories</a><BR>

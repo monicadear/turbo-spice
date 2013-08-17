@@ -1,0 +1,1 @@
+<a href=../indexadmin.php>back to home</a> &#124;<a href=viewall.php>view all categories</a> &nbsp; <a href=input_new.php>add new category</a><BR>

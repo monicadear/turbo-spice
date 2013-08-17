@@ -1,0 +1,6 @@
+<?echo "<form target=\"paypal\" action=\"https://www.paypal.com/cgi-bin/webscr\" method=\"post\">\n";echo "<input type=\"hidden\" name=\"add\" value=\"1\">\n";echo "<input type=\"hidden\" name=\"cmd\" value=\"_cart\">\n";echo "<input type=\"hidden\" name=\"business\" value=\"$paypalemail\">\n";echo "<input type=\"hidden\" name=\"item_name\" value=\"$nametopass\">\n";echo "<input type=\"hidden\" name=\"item_number\" value=\"$productnametopass\">\n";
+
+echo "<input type=\"hidden\" name=\"amount\" value=\"$price\">\n";
+
+echo "<input type=\"hidden\" name=\"no_note\" value=\"0\">\n";
+echo "<input type=\"hidden\" name=\"on0\" value=\"Message\">\n";echo "Specify options? <input name=\"os0\" type=text size=10>";echo "<input type=\"hidden\" name=\"currency_code\" value=\"USD\">\n";echo "<input type=\"hidden\" name=\"return\" value=\"$basewebsite\">\n";echo "<input type=\"hidden\" name=\"=bn\" value=\"PP-ShopCartBF\">\n";echo "<input type=\"image\" align=\"right\" src=\"/downloads/addtocart.gif\" border=\"0\" name=\"submit\" alt=\"Paypal\">\n";echo "</form>\n";?>

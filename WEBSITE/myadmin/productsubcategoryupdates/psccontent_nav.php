@@ -1,0 +1,1 @@
+<a href=input_newpsc.php>input new product subcategory</a> &nbsp; <a href=viewallpsc.php>view all product subcategories</a><BR>

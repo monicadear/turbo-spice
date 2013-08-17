@@ -1,0 +1,1 @@
+<a href=../indexadmin.php>back to home</a> &#124;<a href=input_new.php>input new press release category</a> &nbsp; <a href=viewall.php>view all press release categories</a><BR>

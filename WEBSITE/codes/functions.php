@@ -1,0 +1,1 @@
+<?php //functions.phpfunction theDate($format, $str) {         $year = substr($str,0,4);         $month = substr($str,4,2);         $day = substr($str,6,2);         $hour = substr($str,8,2);         $min = substr($str,10,2);         $sec = substr($str,12,2);         return date($format,mktime($hour,$min,$sec,$month,$day,$year));     } ?>
