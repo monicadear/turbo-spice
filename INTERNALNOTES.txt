@@ -1,0 +1,68 @@
+1) 
+Set up Database
+
+Import sql_masterversion.txt
+
+Upload the package to the hosting
+
+Change /codes/adminconfig.php and /codes/adminconfig2.php
+
+Go to /library/myheader.php and update all variables (e.g. Name of Organization, etc.)
+
+also /library/myheaderbw.php ---> check variable
+
+also /library/myheader4.php ---> check for category2
+
+
+LOG IN -> /pages/login.php  and
+Go through existing page content and delete unneeded pages or "unpublish" them.
+
+Update STYLEIT.CSS file with desired styling and graphics
+
+
+CHECK IF only ADMIN or if GENERAL PUBLIC can sign up for a new account: then choose the version and rename to "signin.php"
+
+General public can sign in: /pages/signin.php 
+OR:
+Admin only can create new user: /pages/signin_ADMINONLYREGISTERS.php
+
+PAGE UPDATES:
+1) check Board and Staff directory functionality
+2) Update /pages/membersearchresults.php
+
+CHECK:
+3) Change information on:
+memberphp_handlerannouncement.php
+memberphp_handlercalendar.php
+memberphp_handlerdownload.php
+
+ADMIN:
+4) Go to adminnav.php and change tabs to only the ones that are used for this project
+5) Go to adminheader.php and update variables as needed
+6) Go to adminsmallbox.php and change notes as needed
+
+CONSTANTS: GO TO:
+7) /include/constants.php and change database, user, pass
+change items:
+define("EMAIL_FROM_ADDR", "info@website.com");
+define("BASEWEBSITE", "http://www.website.com");
+
+SUB OUT "Organization" with real name of organization in
+TERMS and CONDITIONS of USE page
+
+CALENDAR, if needed
+8) /myadmin/calendar/calendar_input_new.php
+Check that calendar link from admin goes to correct calendar page
+--> also check front-end version
+
+ANNOUNCEMENTS, if needed
+9) /myadmin/announcements/input_newannouncement.php
+Check that announcements link from admin goes to correct announcements page
+--> also check front-end version
+
+10) CONTACTUS.php ---> CHECK AND CHANGE VARIABLES< if needed
+including Recaptcha code
+
+11) RSVP.php ---> CHECK AND CHANGE VARIABLES< if needed
+
+12) sitemap.txt --- check and sub out WEBSITE with the actual website domain
